@@ -1,0 +1,51 @@
+body {
+  background-color: #dccdd4;
+  font-family: 'Lobster', cursive;
+  font-size: large;
+}
+
+.accueil {
+  background: url("../images/acc.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.nav {
+  background-color: #dccdd4;
+}
+
+.bouton {
+  background-color: #c95d63;
+}
+
+.boutonNav {
+  background-color: #c95d63;
+}
+
+@media screen and (min-width: 960px) {
+  .liNav {
+    position: absolute;
+    right:0;
+}
+
+.carte {
+  background-color: #c95d63;
+}
+
+.boutonMenu {
+  background-color: #dccdd4;
+}
+
+.fond {
+  background-color: #f5eedd;
+  border-color: #f5eedd;
+}
+
+.alert {
+  background-color: #c95d63;
+}
+
+footer {
+  background-color: #f7efe1;
+}
