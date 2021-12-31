@@ -6,7 +6,7 @@
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Resto'Gastro
+            <i class="fas fa-gem me-3"></i>Gastronomy At Home
           </h6>
           <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, voluptas modi consequatur explicabo nemo at. Et voluptatem incidunt totam amet sit quam fugiat cumque blanditiis error earum consectetur.
