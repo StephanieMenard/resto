@@ -1,5 +1,5 @@
 <?php
-require './../inc/head.tpl.php';
+require './../inc/head-partials.tpl.php';
 ?>
 <body>
 
@@ -142,4 +142,4 @@ require './../inc/head.tpl.php';
 </div>
 
 <?php
-require './../inc/footer.tpl.php';
+require './../inc/footer-partials.tpl.php';

@@ -1,5 +1,5 @@
 <?php
-require './../inc/head.tpl.php';
+require './../inc/head-partials.tpl.php';
 ?>
 
 <body> 
@@ -18,5 +18,5 @@ $email = $_POST['email'];
 </div>
 
 <?php
-require './../inc/footer.tpl.php';
+require './../inc/footer-partials.tpl.php';
 ?>

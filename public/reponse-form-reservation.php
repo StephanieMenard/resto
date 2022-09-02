@@ -1,5 +1,5 @@
 <?php
-require './../inc/head.tpl.php';
+require './../inc/head-partials.tpl.php';
 ?>
 
 <body>
@@ -34,5 +34,5 @@ $question = $_POST['question'];
 </div>
 
 <?php
-require './../inc/footer.tpl.php';
+require './../inc/footer-partials.tpl.php';
 ?>

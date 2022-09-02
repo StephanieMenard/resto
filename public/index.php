@@ -58,7 +58,7 @@ require './../data/carrousel-accueil.php';
       <div class="col-sm-12 col-md-12 col-lg-8">
         <p><?= $chef['presentation']?></p>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="col-sm-12 col-md-12 col-lg-4 mx-auto text-center">
         <img class="rounded" src="<?= $chef['image']?>" alt="chef lorem" height="350px" width="300px">
       </div>
     </div>
@@ -66,11 +66,12 @@ require './../data/carrousel-accueil.php';
 
 
   <!--MENUS-->
-  <div class="fond container mt-5 p-5 py-5">
-    <h2 id="menu" class="display-4 text-center mb-5">Menus</h2>
-    <div class="fond row">
+  <div class="container fond mt-5 p-5 py-5 mx-auto">
+    <h2 id="menu" class="display-4 text-center mb-5 fond">Menus</h2>
+    <div class="row fond divMenu">
       <?php foreach ($menus as $index => $menu) : ?>
-      <div class="fond card ms-5 mb-4 shadow-sm col-sm-12 col-md-4 col-lg-3">
+      <!--<div class="fond itemMenu card ms-5 mb-4 shadow-sm col-8 col-sm-4 col-md-3 col-lg-3 mx-auto">-->
+      <div class="fond itemMenu card mx-3 mb-4 shadow-sm col-8 col-sm-6 col-md-4 col-lg-4 mx-auto">
         <img src="<?= $menu['image'] ?>" class="w-100 sm-text-center" alt="image menu">
         <div class="card-body text-center">
           <p class="card-text text-center"><?= $menu['titre'] ?></p>

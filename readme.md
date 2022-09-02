@@ -1,0 +1,1 @@
+- mettre index.php en point d'entree

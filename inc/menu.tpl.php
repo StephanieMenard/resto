@@ -1,58 +1,58 @@
 <!--CARTE MENU-->
 <div class="container">
   <h1 class="display-4 text-center text-dark mb-5"><?= $menu['titre'] ?></h1>
-  <div class="row" style="width:700px; margin:auto;">
+  <div class="row" style="max-width:700px; margin:auto;">
     <div class="col">
-      <div class="card  mb-3" style="width: 45rem;">
+      <div class="card  mb-3">
 
         <div class="carte card-header text-center "><?= $menu['titre'] ?>
         </div>
 
-        <div class="card-body text-dark">
+        <div class="card-body">
 
           <h5 class="card-title text-center">Entrée au choix</h5>
           <p class="card-text">
             <ul>
-              <li style="color:black;"><?= $menu['entree1'] ?></li>
+              <li><?= $menu['entree1'] ?></li>
             </ul>
             <ul>
-              <li style="color:black;"><?= $menu['entree2'] ?></li>
+              <li><?= $menu['entree2'] ?></li>
             </ul>
             <ul>
-              <li style="color:black;"><?= $menu['entree3'] ?></li>
+              <li><?= $menu['entree3'] ?></li>
             </ul>
           </p>
 
           <h5 class="card-title text-center">Plat au choix</h5>
-          <p class="card-text" style="color:black;">
+          <p class="card-text">
             <ul>
-              <li style="color:black;"><?= $menu['plat1'] ?></li>
+              <li><?= $menu['plat1'] ?></li>
             </ul>
             <ul>
-              <li style="color:black;"><?= $menu['plat2'] ?></li>
+              <li><?= $menu['plat2'] ?></li>
             </ul>
           </p>
 
           <h5 class="card-title text-center">Dessert au choix</h5>
-          <p class="card-text" style="color:black;">
+          <p class="card-text">
             <ul>
-              <li style="color:black;"><?= $menu['dessert1'] ?></li>
+              <li><?= $menu['dessert1'] ?></li>
             </ul>
             <ul>
-              <li style="color:black;"><?= $menu['dessert2'] ?></li>
+              <li><?= $menu['dessert2'] ?></li>
             </ul>
           </p>
 
           <h5 class="card-title text-center">Vins au choix</h5>
-          <p class="card-text" style="color:black;">
+          <p class="card-text">
             <ul>
-              <li style="color:black;"><?= $menu['vin1'] ?></li>
+              <li><?= $menu['vin1'] ?></li>
             </ul>
             <ul>
-              <li style="color:black;"><?= $menu['vin2'] ?></li>
+              <li><?= $menu['vin2'] ?></li>
             </ul>
             <ul>
-              <li style="color:black;"><?= $menu['vin3'] ?></li>
+              <li><?= $menu['vin3'] ?></li>
             </ul>
           </p>
 

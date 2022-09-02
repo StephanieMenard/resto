@@ -18,13 +18,13 @@
             Menus
           </h6>
           <p>
-            <a href="#menu" class="text-reset">Standard</a>
+            <a href="./index.php" class="text-reset">Standard</a>
           </p>
           <p>
-            <a href="#menu" class="text-reset">Medium</a>
+            <a href="./index.php" class="text-reset">Medium</a>
           </p>
           <p>
-            <a href="#menu" class="text-reset">Premium</a>
+            <a href="./index.php" class="text-reset">Premium</a>
           </p>        
         </div>
 
@@ -34,13 +34,13 @@
           </h6>
 
           <p>
-            <a href="#menu" class="text-reset">Romantique</a>
+            <a href="./index.php" class="text-reset">Romantique</a>
           </p>
           <p>
-            <a href="#menu" class="text-reset">Familial</a>
+            <a href="./index.php" class="text-reset">Familial</a>
           </p>
           <p>
-            <a href="#menu" class="text-reset">Anniversaire</a>
+            <a href="./index.php" class="text-reset">Anniversaire</a>
           </p>
         </div>
 
@@ -48,7 +48,7 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <a href='#chef_lorem' class="nav-link text-dark">Chef Lorem Ipsum</a>
+          <a href='./index.php' class="nav-link text-dark">Chef Lorem Ipsum</a>
           <a href='../public/contact.php' class="nav-link text-dark">Contact</a>
           <a href="./reservation.php" class="nav-link text-dark">Réservation</a>
           <a href="./index.php" class="nav-link text-dark">Revenir à l'accueil</a>

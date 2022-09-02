@@ -23,10 +23,9 @@ body {
   background-color: #c95d63;
 }
 
-@media screen and (min-width: 960px) {
-  .liNav {
-    position: absolute;
-    right:0;
+.fond {
+  background-color: #f5eedd;
+  border-color: #f5eedd;
 }
 
 .carte {
@@ -37,10 +36,6 @@ body {
   background-color: #dccdd4;
 }
 
-.fond {
-  background-color: #f5eedd;
-  border-color: #f5eedd;
-}
 
 .alert {
   background-color: #c95d63;
@@ -49,3 +44,26 @@ body {
 footer {
   background-color: #f7efe1;
 }
+
+
+@media screen and (min-width: 960px) {
+  .liNav {
+    position: absolute;
+    right:0;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  .divMenu {
+    display: flex ;
+   align-items: center ;
+    justify-content: center ;
+}
+}
+
+
+
